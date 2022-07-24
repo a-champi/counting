@@ -1,0 +1,40 @@
+.counter{
+    box-sizing: border-box;    
+    border-radius: 10px;    
+    background-color: lightseagreen; 
+
+}
+
+.counter h2 {
+    color:black;
+    text-align: center;
+    font-family: kursive;
+}
+
+.display_counter{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color:rgba(255, 0, 0, 0.493);
+
+}
+
+
+.display_add_minus,
+.display_reset{
+    display: flex;
+    justify-content: center;
+    gap:10px;        
+}
+
+.add, .minus{
+    width: 30px;
+    height: 30px;
+}
+
+.reset {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
