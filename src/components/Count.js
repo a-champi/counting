@@ -29,13 +29,16 @@ const Count = () => {
         <h3>{count}</h3>
       </div>
       <div className="display_add_minus">
-        <button className="add" onClick={increase}>+
+        <button className="add" onClick={increase}>
+          +
         </button>
-        <button className="minus" onClick={decrease}>-
+        <button className="minus" onClick={decrease}>
+          -
         </button>
       </div>
       <div className="display_reset">
-        <button className="reset" onClick={reset}>reset
+        <button className="reset" onClick={reset}>
+          reset
         </button>
       </div>
     </div>
