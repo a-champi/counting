@@ -24,17 +24,17 @@ const Count = () => {
 
   return (
     <div className="counter">
-      <h2>Counting Maschine</h2>
+      <h2>Counting simple</h2>
       <div className="display_counter">
         <h3>{count}</h3>
       </div>
       <div className="display_add_minus">
-        <button className="add" onClick={increase}>
-          +
-        </button>
-        <button className="minus" onClick={decrease}>
+      <button className="minus" onClick={decrease}>
           -
         </button>
+        <button className="add" onClick={increase}>
+          +
+        </button>        
       </div>
       <div className="display_reset">
         <button className="reset" onClick={reset}>
